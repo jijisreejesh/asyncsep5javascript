@@ -8,8 +8,23 @@ async function getUserData(){
             name:"anu",age:20,place:"palakkad"
         }
         resolve(data)
-    }
-    ),2000})  
+        }
+    ,2000)})  
     console.log(await l)    
 }
 getUserData();
+
+    //  let l=new Promise(resolve=>{
+    //         setTimeout(()=>{
+    //                 data={
+    //                     name:"anu",age:20,place:"palakkad"
+    //                 }
+    //              resolve(data)
+    //         },2000)  
+    //     })
+    // async function getUserData() {
+    //     let d=await l
+    //     console.log(d)
+        
+    // }
+    // getUserData()
